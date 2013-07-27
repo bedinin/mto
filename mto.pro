@@ -5,9 +5,11 @@ QT    +=   gui
 SOURCES += \
     main.cpp \
     cmysqlconnect.cpp \
-    CMtoCore.cpp
+    CMtoCore.cpp \
+    ilabel.cpp
 
 HEADERS += \
     global.h \
     cmysqlconnect.h \
-    CMtoCore.h
+    CMtoCore.h \
+    ilabel.h
