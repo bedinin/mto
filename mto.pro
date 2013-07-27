@@ -6,10 +6,16 @@ SOURCES += \
     main.cpp \
     cmysqlconnect.cpp \
     CMtoCore.cpp \
-    ilabel.cpp
+    ilabel.cpp \
+    cdivisions.cpp
 
 HEADERS += \
     global.h \
     cmysqlconnect.h \
     CMtoCore.h \
-    ilabel.h
+    ilabel.h \
+    cdivisions.h
+
+
+FORMS += \
+    designerDivisions.ui
