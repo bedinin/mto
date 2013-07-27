@@ -7,15 +7,18 @@ SOURCES += \
     cmysqlconnect.cpp \
     CMtoCore.cpp \
     ilabel.cpp \
-    cdivisions.cpp
+    cdivisions.cpp \
+    cnomenclature.cpp
 
 HEADERS += \
     global.h \
     cmysqlconnect.h \
     CMtoCore.h \
     ilabel.h \
-    cdivisions.h
+    cdivisions.h \
+    cnomenclature.h
 
 
 FORMS += \
-    designerDivisions.ui
+    designerDivisions.ui \
+    designerCNomenclature.ui
