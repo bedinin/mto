@@ -10,7 +10,8 @@ SOURCES += \
     cdivisions.cpp \
     cnomenclature.cpp \
     covd.cpp \
-    cstatusdevice.cpp
+    cstatusdevice.cpp \
+    cnecessaryedit.cpp
 
 HEADERS += \
     global.h \
@@ -20,11 +21,13 @@ HEADERS += \
     cdivisions.h \
     cnomenclature.h \
     covd.h \
-    cstatusdevice.h
+    cstatusdevice.h \
+    cnecessaryedit.h
 
 
 FORMS += \
     designerDivisions.ui \
     designerCNomenclature.ui \
     designerOvd.ui \
-    designerStatusDevice.ui
+    designerStatusDevice.ui \
+    designerNecessaryEdit.ui
