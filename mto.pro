@@ -9,7 +9,8 @@ SOURCES += \
     ilabel.cpp \
     cdivisions.cpp \
     cnomenclature.cpp \
-    covd.cpp
+    covd.cpp \
+    cstatusdevice.cpp
 
 HEADERS += \
     global.h \
@@ -18,10 +19,12 @@ HEADERS += \
     ilabel.h \
     cdivisions.h \
     cnomenclature.h \
-    covd.h
+    covd.h \
+    cstatusdevice.h
 
 
 FORMS += \
     designerDivisions.ui \
     designerCNomenclature.ui \
-    designerOvd.ui
+    designerOvd.ui \
+    designerStatusDevice.ui
