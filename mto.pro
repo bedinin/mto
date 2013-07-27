@@ -8,7 +8,8 @@ SOURCES += \
     CMtoCore.cpp \
     ilabel.cpp \
     cdivisions.cpp \
-    cnomenclature.cpp
+    cnomenclature.cpp \
+    covd.cpp
 
 HEADERS += \
     global.h \
@@ -16,9 +17,11 @@ HEADERS += \
     CMtoCore.h \
     ilabel.h \
     cdivisions.h \
-    cnomenclature.h
+    cnomenclature.h \
+    covd.h
 
 
 FORMS += \
     designerDivisions.ui \
-    designerCNomenclature.ui
+    designerCNomenclature.ui \
+    designerOvd.ui
