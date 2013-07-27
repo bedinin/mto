@@ -4,12 +4,10 @@ QT    +=   gui
 
 SOURCES += \
     main.cpp \
-    cmysqlconnect.cpp
+    cmysqlconnect.cpp \
+    CMtoCore.cpp
 
 HEADERS += \
     global.h \
-    cmysqlconnect.h
-
-
-
-
+    cmysqlconnect.h \
+    CMtoCore.h
