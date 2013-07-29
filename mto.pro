@@ -11,7 +11,8 @@ SOURCES += \
     cnomenclature.cpp \
     covd.cpp \
     cstatusdevice.cpp \
-    cnecessaryedit.cpp
+    cnecessaryedit.cpp \
+    cpreciousmetals.cpp
 
 HEADERS += \
     global.h \
@@ -22,7 +23,8 @@ HEADERS += \
     cnomenclature.h \
     covd.h \
     cstatusdevice.h \
-    cnecessaryedit.h
+    cnecessaryedit.h \
+    cpreciousmetals.h
 
 
 FORMS += \
@@ -30,4 +32,8 @@ FORMS += \
     designerCNomenclature.ui \
     designerOvd.ui \
     designerStatusDevice.ui \
-    designerNecessaryEdit.ui
+    designerNecessaryEdit.ui \
+    designerPreciousMetals.ui
+
+
+
