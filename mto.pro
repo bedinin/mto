@@ -12,7 +12,8 @@ SOURCES += \
     covd.cpp \
     cstatusdevice.cpp \
     cnecessaryedit.cpp \
-    cpreciousmetals.cpp
+    cpreciousmetals.cpp \
+    camortizationgroup.cpp
 
 HEADERS += \
     global.h \
@@ -24,7 +25,8 @@ HEADERS += \
     covd.h \
     cstatusdevice.h \
     cnecessaryedit.h \
-    cpreciousmetals.h
+    cpreciousmetals.h \
+    camortizationgroup.h
 
 
 FORMS += \
@@ -33,7 +35,11 @@ FORMS += \
     designerOvd.ui \
     designerStatusDevice.ui \
     designerNecessaryEdit.ui \
-    designerPreciousMetals.ui
+    designerPreciousMetals.ui \
+    designerAmortizationGroup.ui
+
+
+
 
 
 
